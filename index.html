@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>บอกรักแฟน</title>
+    <link rel="stylesheet" href="styles.css"> <!-- เชื่อมโยงไฟล์ CSS -->
+</head>
+<body>
+    <div class="message-box">
+        <h1>ploy</h1>
+        <p>อิอิ</p>
+    </div>
+    <img src="https://scontent-bkk1-1.xx.fbcdn.net/v/t39.30808-1/461681367_447549511637868_5750990586642149702_n.jpg?stp=dst-jpg_s200x200&_nc_cat=111&ccb=1-7&_nc_sid=0ecb9b&_nc_eui2=AeGpd2R47QmQ7fW28_WCFrO5OLmOnfjM6gw4uY6d-MzqDFxRl4Tf0TChtp8_qPuRhLiPRuerp1guOFB6eliAVzCw&_nc_ohc=yrmzAuzjFMkQ7kNvgH205mt&_nc_zt=24&_nc_ht=scontent-bkk1-1.xx&_nc_gid=AMWE0Y1SGx7CspUdkJ_uGlN&oh=00_AYAmRs8ZaECXWgXdasw5f5e909RQl74iaM7OOsjJTwn-lQ&oe=671CF04A" alt="รูปแฟน">
+    <button onclick="createFirework(event)">กดเลย</button>
+
+    <script>
+        function createFirework(event) {
+            const container = document.body;
+            const firework = document.createElement('div');
+            firework.className = 'firework';
+
+            // สร้างรูปหัวใจ
+            const heart = document.createElement('div');
+            heart.className = 'heart';
+            firework.appendChild(heart);
+
+            const x = event.clientX; // ตำแหน่ง x ที่คลิก
+            const y = event.clientY; // ตำแหน่ง y ที่คลิก
+            
+            firework.style.left = `${x}px`;
+            firework.style.top = `${y}px`;
+            container.appendChild(firework);
+
+            // ลบพลุหลังจากอนิเมชันเสร็จ
+            setTimeout(() => {
+                container.removeChild(firework);
+            }, 600);
+
+            // เปลี่ยนไปยังลิงค์ YouTube
+            window.location.href = "https://www.youtube.com/watch?v=eKWSSHJ5d_I"; // แทนที่ YOUR_VIDEO_ID ด้วย ID ของวิดีโอ YouTube ที่คุณต้องการ
+        }
+    </script>
+</body>
+</html>

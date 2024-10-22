@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('data:image/png;base64,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'); /* URL ของภาพหัวใจ */
+    background-size: 200px 200px; /* ขนาดของหัวใจ */
+    background-repeat: repeat; /* ทำให้ภาพซ้ำกันทั่วทั้งพื้นหลัง */
+    color: #333;
+    text-align: center;
+    padding: 50px;
+    position: relative;
+    overflow: hidden; /* ป้องกันไม่ให้พลุออกนอกหน้าจอ */
+}
+
+h1 {
+    color: #ff6699;
+}
+
+p {
+    font-size: 18px;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.firework {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #ff6699;
+    opacity: 0.8;
+    pointer-events: none;
+    animation: explode 0.6s forwards;
+}
+
+@keyframes explode {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.5);
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.heart {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background-color: #ff6699;
+    transform: rotate(-45deg);
+    margin: 0 auto;
+}
+
+.heart:before,
+.heart:after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #ff6699;
+    border-radius: 50%;
+}
+
+.heart:before {
+    top: -25px;
+    left: 0;
+}
+
+.heart:after {
+    left: 25px;
+    top: 0;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff6699;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff3366;
+}
+.message-box {
+    border: 2px solid #ff6699; /* สีและความหนาของกรอบ */
+    border-radius: 10px; /* มุมของกรอบให้มน */
+    padding: 20px; /* เว้นระยะภายในกรอบ */
+    background-color: rgba(255, 255, 255, 0.8); /* สีพื้นหลังให้โปร่งแสง */
+    display: inline-block; /* ทำให้กรอบมีขนาดตามเนื้อหาภายใน */
+    margin: 20px auto; /* เว้นระยะจากด้านบนและล่าง */
+}
+img {
+    display: block; /* ทำให้รูปภาพแสดงในบรรทัดใหม่ */
+    margin: 20px auto; /* เว้นระยะจากข้อความด้านบนและล่าง */
+    width: 300px; /* กำหนดความกว้างของรูปภาพ */
+    height: auto; /* รักษาสัดส่วน */
+    border-radius: 10px; /* ทำให้มุมของรูปภาพมน */
+}
